@@ -26,7 +26,9 @@ const ContactForm = () => {
 
   const t = useTranslations("Contact");
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -36,7 +38,7 @@ const ContactForm = () => {
 
   const isFieldEmpty = (field: string) => field || field.trim() !== "";
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
       console.log(t("swalSent"));
@@ -64,7 +66,7 @@ const ContactForm = () => {
         .sendForm(
           env.idService, // Reemplaza con tu ID del servicio
           env.idTemplate, // Reemplaza con tu ID del formulario en EmailJS
-          e.target,
+          e.currentTarget,
           env.publicKey // Reemplaza con tu clave pública de EmailJS
         )
         .then(() => {
