@@ -13,16 +13,18 @@ export const metadata: Metadata = {
   title: "Mauricio Arce",
   description: "Mauricio Arce Portfolio",
 };
+
 export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = (await Promise.resolve(params)).locale;
+  const resolvedParams = await params; // Esperamos a que la promesa se resuelva si es necesario
+  const locale = resolvedParams.locale;
 
-  if (!["en", "es"].includes(locale)) {
+  if (locale !== "en" && locale !== "es") {
     notFound();
   }
 
