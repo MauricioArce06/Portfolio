@@ -11,7 +11,7 @@
     "outlined": "Developer",
     "h1P2": "con sede en",
     "spanP3": "Argentina",
-    "p1": "Soy Mauricio Arce, un Full Stack Developer apasionado por construir soluciones web eficientes y escalables. Con experiencia en tecnologías como React, Next.js, NestJS, Spring Boot, y PostgreSQL, me especializo en desarrollar tanto frontend como backend para aplicaciones completas. Disfruto trabajando en equipo, aprendiendo nuevas tecnologías y afrontar retos que me ayuden a crecer profesionalmente. Mi enfoque es siempre entregar productos de alta calidad, optimizar la experiencia del usuario usuario y garantizar la escalabilidad del sistema."
+    "p1": "Soy Mauricio Arce, un Full Stack Developer apasionado por construir soluciones web eficientes y escalables. Con experiencia en tecnologías como React, Next.js, NestJS, Spring Boot, y PostgreSQL, me especializo en desarrollar tanto frontend como backend para aplicaciones completas. Disfruto trabajando en equipo, aprendiendo nuevas tecnologías y afrontar retos que me ayuden a crecer profesionalmente. Mi enfoque es siempre entregar productos de alta calidad, optimizar la experiencia del usuario y garantizar la escalabilidad del sistema."
   },
   "Nav": {
     "about": "Sobre Mi",
@@ -34,7 +34,7 @@
   "About Me": {
     "h1": "Sobre",
     "span": "Mi",
-    "p1": "Soy un desarrollador Full Stack dedicado y autodidacta especializado en desarrollo web moderno con React.js, Next.js, y NestJS. Me apasiona crear sistemas backend robustos e interfaces fáciles de usar que dan vida a los productos digitales. Para mí, claro, código mantenible y la entrega de experiencias de usuario excepcionales son experiencias de usuario excepcionales.",
+    "p1": "Soy un desarrollador Full Stack dedicado y autodidacta especializado en desarrollo web moderno con React.js, Next.js, y NestJS. Me apasiona crear sistemas backend robustos e interfaces fáciles de usar que dan vida a productos digitales. Para mí el código mantenible y la entrega de experiencias de usuario excepcionales son mis principales prioridades.",
     "p2": "Mi viaje de desarrollo comenzó durante un curso intensivo y desde entonces evolucionado a través del aprendizaje continuo y la experiencia práctica. Con el tiempo, he aceptado retos, dominado tecnologías como TypeScript, Spring Boot y PostgreSQL, y colaborado en proyectos proyectos de impacto como DentAll y Pampa.",
     "p3": "Cuando no estoy programando, disfruto explorando comunidades tecnológicas, aprendiendo de startups innovadoras y mejorando mis habilidades a través del estudio autoguiado. Puedes encontrarme compartiendo ideas en GitHub o contribuyendo a proyectos emocionantes que empujan los límites del desarrollo web."
   },
@@ -42,7 +42,7 @@
     "h1": "Mis",
     "span": "Proyectos",
     "DAdesc": "DentAll es una innovadora plataforma diseñada para ofrecer soluciones digitales a clínicas dentales. Facilita la gestión de citas, historial médico de pacientes y pagos en línea, todo en un solo lugar. Con un sistema intuitivo y fácil de usar, ayuda a los profesionales a optimizar sus servicios, mejorando la experiencia tanto de los dentistas como de los pacientes. Esta herramienta también ofrece análisis detallados que permiten a las clínicas tomar decisiones informadas y mejorar continuamente la calidad de sus atenciones.",
-    "DaTdesc": "Doggos And Tattoos es una plataforma innovadora que facilita la gestión de citas para una tienda de tatuajes. Permite a los usuarios ver disponibilidad, agendar turnos, y gestionar servicios personalizados. Con una interfaz fácil de usar, los clientes pueden navegar entre diferentes opciones de tatuajes y diseñar su experiencia con total comodidad y flexibilidad. Además, ofrece la posibilidad de conocer al equipo de artistas, consultar precios y recibir actualizaciones sobre su cita, mejorando la experiencia del usuario en cada paso.",
+    "DaTdesc": "Doggos And Tattoos es una plataforma innovadora que facilita la gestión de citas para una tienda de tatuajes. Permite a los usuarios ver disponibilidad, agendar turnos, y gestionar servicios personalizados. Con una interfaz fácil de usar, los clientes pueden navegar entre diferentes opciones de tatuajes y diseñar su experiencia con total comodidad y flexibilidad. Además, ofrece la posibilidad de conocer al equipo de trabajo, consultar precios y recibir actualizaciones sobre su cita, mejorando la experiencia del usuario en cada paso.",
     "Pdesc": "Pampa es una tienda en línea en desarrollo que ofrece sellos impresos en 3D. Los usuarios pueden explorar productos por categorías, añadir artículos a su carrito y realizar pagos de manera segura a través de Mercado Pago. Actualmente en proceso, estamos mejorando la experiencia y agregando nuevas funcionalidades para hacer la compra aún más fácil y conveniente.",
     "ComingSoon": "Proximamente"
   },
