@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ResumeButton } from "./resumeButton";
 import { useTranslations } from "next-intl";
+import { Lang } from "./Lang";
 
 const NavLinks = () => {
   const t = useTranslations("Nav");
@@ -17,12 +18,11 @@ const NavLinks = () => {
     <div key={item.name}>
       <Link
         href={item.href}
-        className="hover:text-neutral-600  transition-all hover:underline-offset-8 font-semibold text-xl group"
+        className="hover:text-neutral-600 transition-all hover:underline-offset-8 font-semibold text-xl group"
       >
         {item.name}
-        <div className="w-full h-0.5 scale-x-0 group-hover:scale-x-100 transition-transform  bg-black"></div>
+        <div className="w-full h-0.5 scale-x-0 group-hover:scale-x-100 transition-transform bg-black"></div>
       </Link>
-      <div className="w-full h-0.5 scale-x-0 group-hover:scale-x-100 transition-transform  bg-black"></div>
     </div>
   ));
 };
@@ -72,6 +72,10 @@ export default function NavBar() {
                     onClick={toggleNavbar}
                   />
                   <NavLinks />
+                  {/* Centering the ResumeButton */}
+                  <div className="flex justify-center">
+                    <ResumeButton />
+                  </div>
                 </div>
               </div>
             ) : (
