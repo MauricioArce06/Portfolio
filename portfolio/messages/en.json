@@ -1,0 +1,68 @@
+{
+  "Lang": {
+    "title": "Language",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "Home": {
+    "h1P1": "Hello I'm",
+    "spanP1": "Mauricio Arce",
+    "spanP2": "Full Stack",
+    "outlined": "Developer",
+    "h1P2": "based in",
+    "spanP3": "Argentina",
+    "p1": "I’m Mauricio Arce, a Full Stack Developer passionate about building efficient and scalable web solutions. With experience in technologies like React, Next.js, NestJS, Spring Boot, and PostgreSQL, I specialize in developing both frontend and backend for complete applications. I enjoy teamwork, learning new technologies, and tackling challenges that help me grow professionally. My focus is always on delivering high-quality products, optimizing user experience, and ensuring system scalability."
+  },
+  "Nav": {
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "My Projects",
+    "contact": "Contact"
+  },
+  "Resume": {
+    "resume": "Resume"
+  },
+  "Skills": {
+    "h1": "My",
+    "span": "Skills",
+    "p": "At the moment I don't have any proffesional experience but I'm looking for it"
+  },
+  "Experience": {
+    "h1": "My",
+    "span": "Experience",
+    "p": "At the moment I don't have any proffesional experience but I'm looking for it"
+  },
+  "About Me": {
+    "h1": "About",
+    "span": "Me",
+    "p1": "I'm a dedicated and self-taught Full Stack Developer specializing in modern web development with React.js, Next.js, and NestJS. I'm passionate about creating robust backend systems and user-friendly interfaces that bring digital products to life. For me, clear, maintainable code and delivering exceptional user experiences are top priorities.",
+    "p2": "My development journey began during an intensive bootcamp and has since evolved through continuous learning and practical experience. Over time, I’ve embraced challenges, mastered technologies like TypeScript, Spring Boot, and PostgreSQL, and collaborated on impactful projects such as DentAll and Pampa.",
+    "p3": "When I'm not coding, I enjoy exploring tech communities, learning from innovative startups, and improving my skills through self-guided study. You can find me sharing insights on GitHub or contributing to exciting projects that push the boundaries of web development."
+  },
+  "Projects": {
+    "h1": "My",
+    "span": "Projects",
+    "DAdesc": "DentAll is an innovative platform designed to provide digital solutions for dental practices. It facilitates appointment management, patient medical history and online payments, all in one place. With an intuitive and easy-to-use system, it helps professionals optimise their services, improving the experience for both dentists and patients. The tool also provides detailed analytics that enable clinics to make informed decisions and continuously improve the quality of their care.",
+    "DaTdesc": "Doggos And Tattoos is an innovative platform that facilitates appointment management for a tattoo shop. It allows users to view availability, schedule appointments, and manage personalised services. With an easy-to-use interface, customers can navigate between different tattoo options and design their experience with total convenience and flexibility. It also offers the ability to meet the team of artists, check prices and receive updates on their appointment, enhancing the user experience at every step.",
+    "Pdesc": "Pampa is an online shop in development that offers 3D printed stamps. Users can browse products by category, add items to their cart and make secure payments through Mercado Pago. Currently underway, we are improving the experience and adding new features to make shopping even easier and more convenient.",
+    "ComingSoon": "Coming Soon"
+  },
+  "Contact": {
+    "I1": "Name",
+    "I2": "Email",
+    "I3": "Message",
+    "I4": "Get in touch",
+    "h1": "Feel Free to",
+    "span": "Contact Me",
+    "p1": "Let’s create something amazing together! Whether you’re looking to",
+    "p2": "collaborate, share an idea, or just say hello, feel free to reach out.",
+    "p3": "I’m always open to new opportunities and conversations!",
+    "swalSent": "Message sent successfully!",
+    "swalErrorName": "Name is required and cannot be empty.",
+    "swalErrorEmail": "Email is required and cannot be empty.",
+    "swalErrorMessage": "Message is required and cannot be empty."
+  },
+  "Footer": {
+    "credits": "Made in Figma by"
+  }
+}
