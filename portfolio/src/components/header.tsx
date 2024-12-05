@@ -8,10 +8,8 @@ export default function Header() {
   return (
     <header className="flex flex-row  justify-between items-center m-7 md:mx-48 md:my-5 md:text-2xl">
       <Logo />
+      <Lang />
       <NavBar />
-      <div className="hidden md:flex">
-        <Lang />
-      </div>
       <div className="hidden md:flex">
         <ResumeButton />
       </div>
