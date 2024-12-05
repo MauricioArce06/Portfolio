@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ResumeButton } from "./resumeButton";
 import { useTranslations } from "next-intl";
-import { Lang } from "./Lang";
 
 const NavLinks = () => {
   const t = useTranslations("Nav");
