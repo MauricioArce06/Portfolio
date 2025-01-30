@@ -36,7 +36,7 @@ export default function MyProjects() {
 
   return (
     <div id="myprojects" className="  bg-black text-white py-15-5 my-14">
-      <div className="container mx-auto flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center md:mx-48  items-center">
         <h1 className="text-2xl md:text-5xl font-normal">
           {t("h1")} <span className="font-extrabold">{t("span")}</span>
         </h1>

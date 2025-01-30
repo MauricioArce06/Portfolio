@@ -4,15 +4,15 @@ import React from "react";
 export default function Skills() {
   const t = useTranslations("Skills");
   return (
-    <div id="skills">
-      <div className="md:mx-28  my-15-5 flex justify-center items-center  flex-col">
-        <h1 className="text-2xl md:text-6xl ">
+    <div id="skills" className=" flex justify-center items-center  flex-col">
+      <div className=" my-15 flex justify-center items-center  flex-col">
+        <h1 className="text-2xl md:text-5xl 2xl:text-6xl ">
           {t("h1")}
           <span className="font-extrabold"> {t("span")}</span>
         </h1>
         <hr className="w-1/2 my-5" />
-        <ul className="grid grid-cols-2 md:grid-cols-5 w-full h-full justify-items-center">
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+        <ul className="grid grid-cols-2 md:grid-cols-5 space-x-5 w-full h-full justify-items-center">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-8 h-8"
@@ -27,7 +27,7 @@ export default function Skills() {
             </svg>
             Git
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 630 630"
@@ -39,7 +39,7 @@ export default function Skills() {
             </svg>
             javaScript
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black">
             <svg
               className="w-8 h-8  group-hover:border-white"
               fill="currentColor"
@@ -59,7 +59,7 @@ export default function Skills() {
             </svg>
             TypeScript
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-9 h-9 p-1 text-black group-hover:text-white group-hover:border-white transition-all"
@@ -71,7 +71,7 @@ export default function Skills() {
             </svg>
             Node.js
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               stroke="currentColor"
@@ -84,7 +84,7 @@ export default function Skills() {
             </svg>
             Spring Boot
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg "
               className="w-8 h-8 text-black group-hover:text-white group-hover:stroke-white transition-all"
@@ -100,7 +100,7 @@ export default function Skills() {
             </svg>
             Java
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 25.6 25.6"
@@ -158,7 +158,7 @@ export default function Skills() {
             PostgreSQL
           </li>
 
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-16 h-16 group-hover:text-white"
@@ -173,7 +173,7 @@ export default function Skills() {
             </svg>
             MySQL
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               stroke="#000"
@@ -277,7 +277,7 @@ export default function Skills() {
             </svg>
             Postman
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               width="58"
               height="56"
@@ -295,7 +295,7 @@ export default function Skills() {
             </svg>
             Nest.JS
           </li>
-          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-48 md:w-48 border-2 rounded border-black ">
+          <li className="flex items-center justify-center flex-col my-5  h-36 w-36 md:h-44 md:w-44 2xl:h-48 2xl:w-48 border-2 rounded border-black ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 64 64"

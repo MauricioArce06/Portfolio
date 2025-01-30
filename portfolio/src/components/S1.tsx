@@ -6,17 +6,23 @@ export default function S1() {
   const t = useTranslations("Home");
 
   return (
-    <div className="container md:mx-auto my-20">
+    <div className="container md:mx-auto 2xl:mx-auto my-4 md:my-20">
       <section className="flex flex-col md-flex-row-reverse lg:flex-row-reverse justify-between items-center ">
-        <img src="/chico.svg" alt="chico" className="hidden md:flex" />
+        <img
+          src="/chico.svg"
+          alt="chico"
+          className="hidden md:flex xl:w-1/2 xl:h-1/2 2xl:w-1/2 2xl:h-1/2 md:mr-12"
+        />
         <img src="/chicoresponsive.svg" alt="" className=" md:hidden" />
-        <div className=" ml-8 my-12 md:ml-0 md:my-0">
-          <h1 className="text-2xl md:text-7xl ">
+        <div className=" ml-8 my-12 md:my-0 md:ml-40 2xl:mx-0 2xl:my-0">
+          <h1 className="text-2xl md:text-5xl 2xl:text-7xl ">
             {t("h1P1")}{" "}
             <span className="font-bold">
               Mauricio Arce <br />
               Full Stack{" "}
-              <span className="outlined-text-m md:text-7xl">Developer</span>
+              <span className="outlined-text-m md:text-5xl 2xl:text-7xl">
+                Developer
+              </span>
             </span>{" "}
             <br />
             {t("h1P2")} <span className="font-bold">{t("spanP3")}</span>
@@ -26,7 +32,7 @@ export default function S1() {
           </p>
         </div>
       </section>
-      <div className="flex items-center space-x-4 ml-8 md:ml-0">
+      <div className="flex items-center space-x-4 my-10 ml-8 md:ml-40 2xl:mx-0 2xl:my-0">
         <a href="https://github.com/MauricioArce06" target="_blank">
           <div className="w-14 h-14 border-2 border-black bg-white rounded flex items-center justify-center hover:invert transition-all">
             <svg

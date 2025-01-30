@@ -44,12 +44,12 @@ export const Lang = () => {
   };
 
   return (
-    <div className="relative text-center w-32">
+    <div className="relative text-center w-auto">
       {/* Botón principal */}
       <div className="group hidden md:block">
         <button
           onClick={() => (isOpen ? closeMenu() : openMenu())}
-          className=" text-xl hidden md:block font-semibold rounded-lg transition-all"
+          className=" md:text-lg 2xl:text-xl hidden md:block font-semibold rounded-lg transition-all"
         >
           {t("title")}
           <div className="h-0.5 scale-x-0 group-hover:scale-x-100 group-focus:scale-x-0 transition-transform  bg-black"></div>
@@ -70,7 +70,7 @@ export const Lang = () => {
         <div
           className={`absolute z-10 mt-2 w-full shadow-lg p-4 transform origin-top transition-all duration-300 ${
             isOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"
-          }`}
+          } min-w-max`}
         >
           {/* Opciones de idioma */}
           <div className="flex flex-col gap-2">

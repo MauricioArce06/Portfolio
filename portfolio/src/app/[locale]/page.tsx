@@ -4,7 +4,7 @@ import LandingPage from "@/components/LandingPage";
 
 export default function Page() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden ">
       <Header />
       <LandingPage />
       <Footer />

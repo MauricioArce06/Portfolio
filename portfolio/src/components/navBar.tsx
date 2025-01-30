@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ResumeButton } from "./resumeButton";
 import { useTranslations } from "next-intl";
+import { Lang } from "./Lang";
 
 const NavLinks = () => {
   const t = useTranslations("Nav");
@@ -47,7 +48,8 @@ export default function NavBar() {
     <>
       <nav>
         <div className="hidden w-full md:flex flex-row justify-between space-x-8">
-          <div className="md:flex flex-row justify-between space-x-8">
+          <div className="flex flex-row justify-between md:space-x-4 2xl:space-x-8 items-center content-">
+            <Lang />
             <NavLinks />
           </div>
           <div className="md:hidden">
